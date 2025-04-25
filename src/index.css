@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: Inter;
+  background-color: wheat;
+}
+
+
+
+header{
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  text-shadow: 2px 2px black;
+  margin-bottom: 40px;
+}
+
+.globe{
+  width:30px;
+  margin-right: 7px;
+  
+}
+
+header>h1{
+  margin: 5px;
+  font-weight: 700;
+  
+}
+
+.journal-entry{
+  display: flex;
+  margin-left: 40px;
+}
+
+.journal-entry .marker{
+  width: 9px;
+  margin-right: 4px;
+}
+
+.journal-entry .main-image-container{
+ 
+  width:125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 19px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+}
+
+.journal-entry .main-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-container{
+  font-size: 13px;
+  max-width: 450px;
+}
+
+.info-container>span{
+  margin-right: 4px;
+  font-weight: 700;
+}
+
+.info-container>p{
+  line-height: 1.5;
+}
