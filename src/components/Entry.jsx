@@ -9,7 +9,7 @@ export default function Entry(props){
         </div>
 
         <div className="info-container">
-        <img className="marker"  src="src/assets/marker.png"/>
+        <img className="marker"  src="https://png.pngtree.com/png-vector/20210214/ourmid/pngtree-location-marker-png-image_2921053.jpg"/>
         <span>{props.entry.country}</span>
         <a href={props.entry.googleMapsLink}>View on Google Maps</a>
         <h2>{props.entry.title}</h2>
